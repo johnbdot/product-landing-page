@@ -1,0 +1,18 @@
+#header-img {
+    width: 100px;
+}
+
+#pricing {
+    display: flex;
+    width: 50%;
+}
+
+#about {
+    display: flex;
+    width: 50%;
+    border: 5px solid red;
+}
+
+@media (min-height: 350px) {
+
+}
