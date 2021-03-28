@@ -46,6 +46,10 @@ body {
     text-align: center;
 }
 
+#submit {
+    color: purple;
+}
+
 #collection {
     margin: auto;
     padding: 50px;
@@ -113,10 +117,34 @@ body {
 }
 
 #footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 100px;
     width: 100%;
     text-align: center;
     background-color: grey;
+}
+
+.price-background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    background-color: grey;
+    height: 50px;
+}
+
+.price-desc {
+    text-align: center;
+}
+
+.price-desc > h1 {
+    margin-bottom: 15px;
+}
+
+.price-desc > p {
+    margin-bottom: 15px;
 }
 
 ul {
@@ -143,6 +171,10 @@ i {
 
 form {
     padding: 10px;
+}
+
+button {
+    color: pink;
 }
 
 footer {
