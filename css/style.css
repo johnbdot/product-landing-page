@@ -32,7 +32,7 @@ body {
 }
 
 #header-img {
-    width: 70px;
+    width: 100px;
 }
 
 #nav-bar {
@@ -43,12 +43,30 @@ body {
 
 #mailing-list {
     background-color: #4E4E50;
-    padding-top: 80px;
+    padding-top: 120px;
     text-align: center;
 }
 
+#email {
+    width: 25%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
 #submit {
-    color: purple;
+    margin-top: 10px;
+    background-color: #FFCD05;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 #collection {
@@ -83,7 +101,7 @@ body {
     align-items: center;
     flex-direction: row;
     height: auto;
-    width: 100%;
+    width: 75%;
 }
 
 #price1,
@@ -107,14 +125,22 @@ body {
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
-    align-items: center;
-    justify-content: space-between;
     width: 50%;
 }
 
 #box-about {
     width: auto;
     padding: 15px;
+}
+
+#box-about > blockquote {
+    margin-bottom: 15px;
+    font-style: italic;
+    text-align: center;
+}
+
+#box-about > p {
+    margin-bottom: 15px;
 }
 
 #footer {
@@ -132,7 +158,7 @@ body {
     align-items: center;
     justify-content: center;
     margin-bottom: 15px;
-    background-color: grey;
+    background-color: #4E4E50;
     height: 50px;
 }
 
@@ -166,16 +192,24 @@ li:last-child {
 
 i {
     min-width: 50px;
-    margin-right: 20px;
+    margin-right: 50px;
     font-size: 50px;
 }
 
 form {
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 20px;
 }
 
 button {
-    color: pink;
+    background-color: #4E4E50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }
 
 footer {
