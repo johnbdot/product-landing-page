@@ -2,3 +2,4 @@
 <p>- Fonts from <a href="https://fonts.google.com/">Google Fonts</a></p>
 <p>- Logo made from <a href="https://www.freelogodesign.org/">freelogodesign.org</a></p>
 <p>- Icons from <a href="https://fontawesome.com/">fontawesome.com</a></p>
+<p>- Video clip from <a href="https://www.pexels.com/videos/">Pexels</a></p>
