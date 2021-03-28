@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Oswald:wght@500&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -23,6 +26,7 @@ body {
     background-color: #1A1A1D;
     display: flex;
     flex-direction: column;
+    font-family: 'Inter', sans-serif;
 }
 
 #header {
@@ -61,7 +65,7 @@ body {
     margin-top: 10px;
     background-color: #FFCD05;
     border: none;
-    color: white;
+    color: black;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
@@ -98,7 +102,6 @@ body {
     background-color: #FFCD05;
     margin: auto;
     display: flex;
-    align-items: center;
     flex-direction: row;
     height: auto;
     width: 75%;
@@ -110,13 +113,6 @@ body {
     height: auto;
     padding: 15px;
     border: 3px solid #1A1A1D;
-}
-
-#product1,
-#product2,
-#product3 {
-    display: flex;
-    align-items: center;
 }
 
 #about {
@@ -154,6 +150,12 @@ body {
     background-color: #4E4E50;
 }
 
+.oswald {
+    font-family: 'Inter', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+}
+
 .price-background {
     display: flex;
     align-items: center;
@@ -169,10 +171,21 @@ body {
 
 .price-desc > h1 {
     margin-bottom: 15px;
+    font-size: 50px;
 }
 
 .price-desc > p {
     margin-bottom: 15px;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    text-decoration: none;
+    color: black
 }
 
 ul {
@@ -195,6 +208,10 @@ i {
     min-width: 50px;
     margin-right: 50px;
     font-size: 50px;
+}
+
+span {
+    color: white;
 }
 
 form {
