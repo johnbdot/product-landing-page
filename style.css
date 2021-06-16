@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Oswald:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  background-color: #1a1a1d;
+  display: flex;
+  flex-direction: column;
+  font-family: "Inter", sans-serif;
+}
+
+#header {
+  background-color: #ffcd05;
+  width: 100%;
+  position: fixed;
+}
+
+#header-img {
+  width: 100px;
+}
+
+#nav-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#mailing-list {
+  background-color: #4e4e50;
+  padding-top: 120px;
+  text-align: center;
+}
+
+#email {
+  width: 25%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+#submit {
+  margin-top: 10px;
+  background-color: #ffcd05;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+#collection {
+  color: white;
+  margin: auto;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
+
+#collection-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+
+#collection-desc {
+  display: flex;
+  flex-direction: column;
+}
+
+#collection-desc > h1 {
+  font-size: 30px;
+}
+
+#pricing {
+  background-color: #ffcd05;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  width: 75%;
+}
+
+#price1,
+#price2,
+#price3 {
+  height: auto;
+  padding: 15px;
+  border: 3px solid #1a1a1d;
+}
+
+#about {
+  color: white;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+#box-about {
+  width: auto;
+  padding: 15px;
+}
+
+#box-about > blockquote {
+  margin-bottom: 15px;
+  font-style: italic;
+  text-align: center;
+}
+
+#box-about > p {
+  margin-bottom: 15px;
+}
+
+#footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  background-color: #4e4e50;
+}
+
+.oswald {
+  font-family: "Inter", sans-serif;
+  font-family: "Oswald", sans-serif;
+  font-style: italic;
+}
+
+.price-background {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  background-color: #4e4e50;
+  height: 50px;
+}
+
+.price-desc {
+  text-align: center;
+}
+
+.price-desc > h1 {
+  margin-bottom: 15px;
+  font-size: 50px;
+}
+
+.price-desc > p {
+  margin-bottom: 15px;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  margin-left: 15px;
+}
+
+li:last-child {
+  margin-right: 15px;
+}
+
+i {
+  min-width: 50px;
+  margin-right: 50px;
+  font-size: 50px;
+}
+
+span {
+  color: white;
+}
+
+form {
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+button {
+  background-color: #4e4e50;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+footer {
+  text-align: center;
+}
+
+@media only screen and (max-width: 1024px) {
+  #collection {
+    width: 80%;
+  }
+
+  #pricing {
+    width: 95%;
+  }
+
+  #about {
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #pricing {
+    flex-direction: column;
+    width: 70%;
+  }
+
+  #about {
+    width: 75%;
+  }
+
+  #box-video {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  #email {
+    width: 90%;
+  }
+
+  #collection {
+    padding: 20px;
+    width: 90%;
+  }
+
+  .fas {
+    display: none;
+  }
+
+  #pricing {
+    width: 90%;
+  }
+
+  #about {
+    width: 90%;
+  }
+}
