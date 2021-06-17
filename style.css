@@ -260,7 +260,7 @@ footer {
 }
 
 @media only screen and (max-width: 630px) {
-  .fas {
+  i.fas {
     display: none;
   }
 
